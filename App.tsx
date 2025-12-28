@@ -1,10 +1,10 @@
-import Login from "./pages/Login.tsx";
-import Dashboard from "./pages/Dashboard.tsx";
-import Schedule from "./pages/Schedule.tsx";
-import Reservations from "./pages/Reservations.tsx";
-import Partners from "./pages/Partners.tsx";
-import Finances from "./pages/Finances.tsx";
-import Reports from "./pages/Reports.tsx";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Schedule from "./pages/Schedule";
+import Reservations from "./pages/Reservations";
+import Partners from "./pages/Partners";
+import Finances from "./pages/Finances";
+import Reports from "./pages/Reports";
 
 export const Logo: React.FC<{ className?: string }> = ({ className }) => (
   <div className={`flex items-center gap-1.5 leading-none ${className}`}>
